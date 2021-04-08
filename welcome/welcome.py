@@ -23,7 +23,7 @@ class welcome(commands.Cog):
           
           em=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
           em.set_author(name=f'{member.name}#{member.discriminator}',icon_url=member.avatar_url)
-          
+          em.set_thumbnail(url="https://cdn.discordapp.com/attachments/799598027257937921/829726047883886622/tenor_3.gif") 
           guild=self.bot.get_guild(799526257506254868)
           channel = guild.get_channel(827008183692296222) 
           
