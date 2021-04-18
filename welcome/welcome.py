@@ -13,8 +13,7 @@ class welcome(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_join(self,member):
-          role = discord.utils.get(member.guild.roles, name='Fluffers')
-          await member.add_roles(role)
+          
   
       
           x='''<a:kawaiiStarryCloud:824531125678243891> <#800095824310566922> 
