@@ -22,7 +22,7 @@ class welcome(commands.Cog):
           
           em=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
           em.set_author(name=f'{member.name}#{member.discriminator}',icon_url=member.avatar_url)
-          em.set_thumbnail(url="https://imgur.com/QQcLvbH") 
+          em.set_thumbnail(url="https://i.imgur.com/QQcLvbH.gif") 
           guild=self.bot.get_guild(799526257506254868)
           channel = guild.get_channel(827008183692296222) 
           
@@ -36,7 +36,7 @@ class welcome(commands.Cog):
           
              em=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
              em.set_author(name=f'{message.author.name}#{message.author.discriminator}',icon_url=message.author.avatar_url)
-             em.set_thumbnail(url="https://imgur.com/QQcLvbH") 
+             em.set_thumbnail(url="https://i.imgur.com/QQcLvbH.gif") 
              guild=self.bot.get_guild(799526257506254868)
              channel = guild.get_channel(827008183692296222) 
              await channel.send(f'<a:animesip:823846730888904724> {message.author.mention} <@&802797577300213790>',embed=em)
