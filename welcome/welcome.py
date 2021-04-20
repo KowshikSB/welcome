@@ -28,7 +28,7 @@ class welcome(commands.Cog):
           
           await channel.send(f'<a:animesip:823846730888904724> {member.mention} <@&802797577300213790>',embed=em)
     @commands.command()
-    async def join(self,message):
+    async def testjoin(self,message):
         if message.author.id in [261742964441612298,533696842613915658]:
              x='''<a:kawaiiStarryCloud:824531125678243891> <#800095824310566922> 
 <a:kawaiiStarryCloud:824531125678243891> <#800116012954550292>
