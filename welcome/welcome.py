@@ -14,19 +14,19 @@ class welcome(commands.Cog):
     @commands.Cog.listener()
     async def on_member_join(self,member):
           
-  
+        if member.guild.id==799526257506254868:
       
-          x='''<a:kawaiiStarryCloud:824531125678243891> <#800095824310566922> 
-<a:kawaiiStarryCloud:824531125678243891> <#800116012954550292>
-<a:kawaiiStarryCloud:824531125678243891> <#827008183692296222>'''
-          
-          em=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
-          em.set_author(name=f'{member.name}#{member.discriminator}',icon_url=member.avatar_url)
-          em.set_thumbnail(url="https://i.imgur.com/QQcLvbH.gif") 
-          guild=self.bot.get_guild(799526257506254868)
-          channel = guild.get_channel(827008183692296222) 
-          
-          await channel.send(f'<a:animesip:823846730888904724> {member.mention} <@&802797577300213790>',embed=em)
+            x='''<a:kawaiiStarryCloud:824531125678243891> <#800095824310566922> 
+    <a:kawaiiStarryCloud:824531125678243891> <#800116012954550292>
+    <a:kawaiiStarryCloud:824531125678243891> <#827008183692296222>'''
+            
+            em=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
+            em.set_author(name=f'{member.name}#{member.discriminator}',icon_url=member.avatar_url)
+            em.set_thumbnail(url="https://i.imgur.com/QQcLvbH.gif") 
+            guild=self.bot.get_guild(799526257506254868)
+            channel = guild.get_channel(827008183692296222) 
+            
+            await channel.send(f'<a:animesip:823846730888904724> {member.mention} <@&802797577300213790>',embed=em)
     @commands.command()
     async def testjoin(self,message):
         if message.author.id in [261742964441612298,533696842613915658]:
