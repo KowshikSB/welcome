@@ -17,8 +17,8 @@ class welcome(commands.Cog):
         if member.guild.id==799526257506254868:
       
             x='''<a:kawaiiStarryCloud:824531125678243891> <#800095824310566922> 
-    <a:kawaiiStarryCloud:824531125678243891> <#800116012954550292>
-    <a:kawaiiStarryCloud:824531125678243891> <#827008183692296222>'''
+<a:kawaiiStarryCloud:824531125678243891> <#800116012954550292>
+<a:kawaiiStarryCloud:824531125678243891> <#827008183692296222>'''
             
             em=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
             em.set_author(name=f'{member.name}#{member.discriminator}',icon_url=member.avatar_url)
