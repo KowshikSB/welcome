@@ -26,7 +26,8 @@ class welcome(commands.Cog):
             guild=self.bot.get_guild(799526257506254868)
             channel = guild.get_channel(827008183692296222) 
             
-            await channel.send(f'<a:animesip:823846730888904724> {member.mention} <@&802797577300213790>',embed=em)
+            m=await channel.send(f'<a:animesip:823846730888904724> {member.mention} <@&802797577300213790>',embed=em)
+            await m.add_reaction('<a:hiwave:845251975281115146>')
     @commands.command()
     async def testjoin(self,message):
         if message.author.id in [261742964441612298,533696842613915658]:
@@ -39,7 +40,7 @@ class welcome(commands.Cog):
              e.set_thumbnail(url="https://i.imgur.com/y4tOjWS.gif") 
              guild=self.bot.get_guild(799526257506254868)
              channel = guild.get_channel(827008183692296222) 
-             await channel.send(f'<a:animesip:823846730888904724> {message.author.mention} <@&802797577300213790>',embed=e)
-        
+             m=await channel.send(f'<a:animesip:823846730888904724> {message.author.mention} <@&802797577300213790>',embed=e)
+             await m.add_reaction('<a:hiwave:845251975281115146>')
 def setup(bot):
     bot.add_cog(welcome(bot))
