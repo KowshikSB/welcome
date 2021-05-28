@@ -2,7 +2,7 @@ from discord.ext import commands
 from discord import channel, utils
 import discord
 import asyncio
-
+import random
 from discord.ext.commands import bot
 
 import discord
@@ -25,9 +25,9 @@ class welcome(commands.Cog):
             em.set_thumbnail(url="https://i.imgur.com/y4tOjWS.gif") 
             guild=self.bot.get_guild(799526257506254868)
             channel = guild.get_channel(827008183692296222) 
-            
+            y=['<a:hiwave:845251975281115146>','<:samuWAVE:843367846510854144>','<:samuOMG:842743003583086593>','<:potatospired:842744736439074877>','<:Ooyes:845223747060367370>','<:foxeee:838782976984088616>','<:FlushProud:843845968037937153>','<:hehe:827599471156133958>','<:potatocute:847412181364506644>','<a:capooeyes:847413043160023060>','<a:capoopat:847412985705922621>','<a:capoopoof:847413169995513916>']
             m=await channel.send(f'<a:animesip:823846730888904724> {member.mention} <@&802797577300213790>',embed=em)
-            await m.add_reaction('<a:hiwave:845251975281115146>')
+            await m.add_reaction(f'{random.choice(y)}')
     @commands.command()
     async def testjoin(self,message):
         if message.author.id in [261742964441612298,533696842613915658]:
@@ -40,7 +40,8 @@ class welcome(commands.Cog):
              e.set_thumbnail(url="https://i.imgur.com/y4tOjWS.gif") 
              guild=self.bot.get_guild(799526257506254868)
              channel = guild.get_channel(827008183692296222) 
+             y=['<a:hiwave:845251975281115146> ','<:samuWAVE:843367846510854144>','<:samuOMG:842743003583086593>','<:potatospired:842744736439074877>','<:Ooyes:845223747060367370>','<:foxeee:838782976984088616>','<:FlushProud:843845968037937153>','<:hehe:827599471156133958>','<:potatocute:847412181364506644>','<a:capooeyes:847413043160023060>','<a:capoopat:847412985705922621>','<a:capoopoof:847413169995513916>']
              m=await channel.send(f'<a:animesip:823846730888904724> {message.author.mention} <@&802797577300213790>',embed=e)
-             await m.add_reaction('<a:hiwave:845251975281115146>')
+             await m.add_reaction(f'{random.choice(y)}')
 def setup(bot):
     bot.add_cog(welcome(bot))
