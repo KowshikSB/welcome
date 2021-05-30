@@ -30,6 +30,7 @@ class welcome(commands.Cog):
             await m.add_reaction(f'{random.choice(y)}')
     @commands.command()
     async def testjoin(self,message):
+        await message.add_reaction('<a:check_mark:835569829901107273>')
         if message.author.id in [261742964441612298,533696842613915658]:
              x='''<a:kawaiiStarryCloud:824531125678243891> <#800095824310566922> 
 <a:kawaiiStarryCloud:824531125678243891> <#800116012954550292>
