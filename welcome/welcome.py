@@ -18,7 +18,7 @@ class welcome(commands.Cog):
       
             x='''<a:kawaiiStarryCloud:824531125678243891> <#800095824310566922> 
 <a:kawaiiStarryCloud:824531125678243891> <#800116012954550292>
-<a:kawaiiStarryCloud:824531125678243891> <#827008183692296222>'''
+<a:kawaiiStarryCloud:824531125678243891> <#800116101580193832>'''
             
             em=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
             em.set_author(name=f'{member.name}#{member.discriminator}',icon_url=member.avatar_url)
@@ -33,7 +33,7 @@ class welcome(commands.Cog):
         if message.author.id in [261742964441612298,533696842613915658]:
              x='''<a:kawaiiStarryCloud:824531125678243891> <#800095824310566922> 
 <a:kawaiiStarryCloud:824531125678243891> <#800116012954550292>
-<a:kawaiiStarryCloud:824531125678243891> <#827008183692296222>'''
+<a:kawaiiStarryCloud:824531125678243891> <#800116101580193832>'''
           
              e=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
              e.set_author(name=f'{message.author.name}#{message.author.discriminator}',icon_url=message.author.avatar_url)
