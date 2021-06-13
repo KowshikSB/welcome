@@ -19,7 +19,7 @@ class welcome(commands.Cog):
             x='''> <a:capoopoof:847413169995513916>  <#800095824310566922>  <#800116012954550292> <#800116101580193832>'''
             
             em=discord.Embed(title="You made it!",description=x,color=0x2f3136)
-            em.set_author(name='"Cloudy With A Chance of Depression"',icon_url="https://i.imgur.com/QQcLvbH.gif")
+            em.set_author(name='Cloudy With A Chance of Depression',icon_url="https://i.imgur.com/QQcLvbH.gif")
             
             guild=self.bot.get_guild(799526257506254868)
             channel = guild.get_channel(827008183692296222) 
@@ -32,7 +32,7 @@ class welcome(commands.Cog):
         if message.author.id in [261742964441612298,533696842613915658]:
              x='''> <a:capoopoof:847413169995513916>  <#800095824310566922>  <#800116012954550292> <#800116101580193832>'''
              e=discord.Embed(title="You made it!",description=x,color=0x2f3136)
-             e.set_author(name='"Cloudy With A Chance of Depression"',icon_url="https://i.imgur.com/QQcLvbH.gif")
+             e.set_author(name='Cloudy With A Chance of Depression',icon_url="https://i.imgur.com/QQcLvbH.gif")
              
              guild=self.bot.get_guild(799526257506254868)
              channel = guild.get_channel(827008183692296222) 
