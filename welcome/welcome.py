@@ -30,7 +30,7 @@ class welcome(commands.Cog):
     async def testjoin(self,message):
         
         if message.author.id in [261742964441612298,533696842613915658]:
-             x='''><a:capoopoof:847413169995513916>   <#800095824310566922>  <#800116012954550292> <#800116101580193832>'''
+             x='''> <a:capoopoof:847413169995513916>   <#800095824310566922>  <#800116012954550292> <#800116101580193832>'''
              e=discord.Embed(title="You made it!",description=x,color=0x2f3136)
              e.set_author(name='Cloudy With A Chance of Depression',icon_url="https://i.imgur.com/QQcLvbH.gif")
              
