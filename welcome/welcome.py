@@ -16,11 +16,11 @@ class welcome(commands.Cog):
           
         if member.guild.id==799526257506254868:
       
-            x='''<a:capoopoof:847413169995513916>  <#800095824310566922>  <#800116012954550292> <#800116101580193832>'''
+            x='''> <a:capoopoof:847413169995513916>  <#800095824310566922>  <#800116012954550292> <#800116101580193832>'''
             
-            em=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
-            em.set_author(name=f'{member.name}#{member.discriminator}',icon_url=member.avatar_url)
-            em.set_thumbnail(url="https://i.imgur.com/y4tOjWS.gif") 
+            em=discord.Embed(title="You made it!",description=x,color=0x2f3136)
+            em.set_author(name='"Cloudy With A Chance of Depression"',icon_url="https://i.imgur.com/QQcLvbH.gif")
+            
             guild=self.bot.get_guild(799526257506254868)
             channel = guild.get_channel(827008183692296222) 
             y=['<a:hiwave:845251975281115146>','<:potatospired:842744736439074877>','<:Ooyes:845223747060367370>','<:foxeee:838782976984088616>','<:FlushProud:843845968037937153>','<:hehe:827599471156133958>','<:potatocute:847412181364506644>','<a:capooeyes:847413043160023060>','<a:capoopat:847412985705922621>','<a:capoopoof:847413169995513916>']
@@ -30,11 +30,10 @@ class welcome(commands.Cog):
     async def testjoin(self,message):
         
         if message.author.id in [261742964441612298,533696842613915658]:
-             x='''<a:capoopoof:847413169995513916>  <#800095824310566922>  <#800116012954550292> <#800116101580193832>'''
-          
-             e=discord.Embed(title="Cloudy With A Chance of Depression",description=x,color=0x2f3136)
-             e.set_author(name=f'{message.author.name}#{message.author.discriminator}',icon_url=message.author.avatar_url)
-             e.set_thumbnail(url="https://i.imgur.com/y4tOjWS.gif") 
+             x='''> <a:capoopoof:847413169995513916>  <#800095824310566922>  <#800116012954550292> <#800116101580193832>'''
+             e=discord.Embed(title="You made it!",description=x,color=0x2f3136)
+             e.set_author(name='"Cloudy With A Chance of Depression"',icon_url="https://i.imgur.com/QQcLvbH.gif")
+             
              guild=self.bot.get_guild(799526257506254868)
              channel = guild.get_channel(827008183692296222) 
              y=['<a:hiwave:845251975281115146> ','<:potatospired:842744736439074877>','<:Ooyes:845223747060367370>','<:foxeee:838782976984088616>','<:FlushProud:843845968037937153>','<:hehe:827599471156133958>','<:potatocute:847412181364506644>','<a:capooeyes:847413043160023060>','<a:capoopat:847412985705922621>','<a:capoopoof:847413169995513916>']
